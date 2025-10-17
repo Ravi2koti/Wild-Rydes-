@@ -35,5 +35,5 @@ jobs:
         run: |
           aws ecs update-service \
             --cluster wildrydes-cluster \
-            --service wildrydes-service \
+            --service wildrydes-task-service-r8n3gf0v \
             --force-new-deployment
